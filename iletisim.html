@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ <head>
+  <title>ILETISIM</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="java.js"></script>
+ </head>
+
+ <body background="pictures/arkaplan.jpg">
+ 
+	<div class="container" id="menu">
+		<nav>
+			 <ul class="nav">
+				  <li class="nav-item"><a class="nav-link"  id="pasif" href="hakkimda.html">HAKKIMDA</a></li>
+				  <li class="nav-item"><a class="nav-link"  id="pasif" href="ozgecmis.html">ÖZGEÇMİŞ</a></li>
+				  <li class="nav-item"><a class="nav-link"  id="pasif" href="sehrim.html">ŞEHRİM</a></li>
+				  <li class="nav-item"><a class="nav-link"  id="pasif" href="mirasimiz.html">MİRASIMIZ</a></li>
+				  <li class="nav-item"><a class="nav-link"  id="pasif" id="aktif" href= "iletisim.html">İLETİŞİM </a></li>
+			 </ul>
+		<nav>
+    </div>
+
+	<br><br>
+	<div class="container">
+		<h1 class="baslik">İLETİŞİM FORMU</h1>
+	</div>
+	
+	<br><br>
+	<form action="Gonder.php" method="post">
+	<div class="container">
+		AD:<br>
+		<input type="text" id="ad" name="Ad"><br><br>
+	</div>
+
+	<div class="container">
+		SOYAD:<br>
+		<input type="text" id="soyad" name="Soyad"><br><br>
+	</div>
+
+	<div class="container">
+		E-MAIL:<br>
+		<input type="text" id="email" name="E-mail"><br><br>
+	</div>
+
+	<div class="container">
+		ADRES:<br>
+		<textarea rows="8" cols="80" id="adres" name="Adres"></textarea><br><br>
+	</div>
+
+	<div class="container">
+		YAŞADIĞINIZ İL:<br>
+		<input type="text" id="il" name="Il"><br><br>
+	</div>
+
+	<div class="container">
+		CİNSİYETİNİZ:<br>
+		<input type="radio" id="cinsiyet" name="Cinsiyet" value="Erkek">Erkek<br>
+		<input type="radio" id="cinsiyet" name="Cinsiyet" value="Kadin">Kadın<br>
+		<input type="radio" id="cinsiyet" name="Cinsiyet" value="Belirtilmedi" checked>Belirtmek İstemiyorum<br><br>
+	</div>
+
+	<div class="container">
+		ÖĞRENİM DURUMUNUZ:<br>
+		<select name="Ogrenim">
+			<option value="Ogrenim gormemis">Öğrenim Görmemiş</option>
+			<option value="Ilkokul">İlkokul</option>
+			<option value="Ortaokul">Ortaokul</option>
+			<option value="Lise">Lise</option>
+			<option value="Universite">Üniversite</option>
+			<option value="Universite">Yüksek lisans</option>
+			<option value="Universite">Doktora</option>
+		</select><br><br>
+	</div>
+
+
+	<div class="container">	
+		<input type="submit" value="Gönder"  onclick="return kontrol();">
+		<input type="reset" value="Temizle"><br><br>
+	</div>
+	</form>
+
+
+	</body>
+ 
+</html>

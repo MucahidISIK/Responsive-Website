@@ -1,0 +1,104 @@
+#menu
+{
+	font-family: monospace;
+	text-align: center;
+}
+
+#menu ul li a:hover
+{
+	background-color: lightgray;
+}
+
+#aktif
+{
+	color: black;
+	border-style: solid;
+	border-radius: 20%;
+	font-family: monospace;
+}
+
+#pasif
+{
+	color: gray;
+	border-style: solid;
+	border-radius: 20%;
+	font-family: monospace;
+}
+
+.baslik
+{
+	font-family: monospace;
+	text-align: center;
+}
+.duzenle
+{
+	font-family: monospace;
+	text-align: left;
+}
+.gorselduzenle
+{
+	border-radius: 10%;
+	max-width: 100%;
+	height: auto;
+}
+
+.pantheon
+{
+    width: 100%;
+	height:100%;
+	border-radius: 2%;
+}
+.tablo
+{
+	font-family: monospace;
+	text-align: left;
+	font-size: 20px;
+	
+}
+
+.ayrac
+{
+	width: 250px;
+}
+
+.ayrac2
+{
+	width: 250px;
+	text-align: center;
+}
+
+.ayrac3
+{
+	width: 600px;
+}
+
+ #slider {
+	 
+	 position:relative;
+	 margin:0 auto;
+	 width: 800px;
+	 height: 600px;
+	 font: 19px sans-serif;
+	 overflow:hidden;
+	 border-radius: 5%;
+	 
+ }
+ 
+ 
+ #kontrol {
+	 
+	 position:absolute;
+	 right:0;
+	 bottom:10px;
+	 
+ }
+ 
+ #kontrol a {
+	 
+	 color:white;
+	 background: rgba(0,0,0,0.5);
+	 padding:10px;
+	 text-decoration:none;
+	 
+	 
+ }
